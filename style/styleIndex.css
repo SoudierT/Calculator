@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 150px;
+}
+.calculator {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 350px;
+    width: 244px;
+    border-radius: 10px
+}
+.screen{
+    background-color:white;
+    margin:7px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 5px;
+}
+
+.touch{
+    display: flex;
+    flex-wrap: wrap;
+    margin:7px;
+}
+.historic{
+    width:110px;
+    height: 25px;
+    margin: 0 5px 5px 0  ;
+}
+.backup{
+    width:110px;
+    height: 25px;
+    margin: 0 0 5px 5px  ;
+}
+.delete{
+    width:110px;
+    height: 25px;
+}
+.deleteOne{
+    width:110px;
+    height: 25px;
+}
+.button{
+    width: 50px;
+    height: 25px;
+}
+#left{
+    margin: 5px 5px 5px 0;   
+}
+#middle{
+    margin: 5px 5px 5px 5px;   
+}
+#right{
+    margin: 5px 0 5px 5px; 
+}
+#leftLow{
+    margin: 5px 5px 0 0;
+}
+#low{
+    margin: 5px 5px 0 5px; 
+}
+#rightLow{
+    margin: 5px 0 0 5px;
+    width:110px
+}
